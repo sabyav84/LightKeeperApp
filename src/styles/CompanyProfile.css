@@ -1,0 +1,70 @@
+.quote-bar {
+  display: flex;
+  padding:1rem;
+  background-color: beige;
+}
+
+.company-profile {
+  background-color: beige;
+   display: inline-block;
+   max-height: 20rem;
+   padding:1rem 0 0 1rem;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  padding-bottom: .5rem;
+}
+
+.general-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.general-info span {
+  text-align: left;
+}
+
+
+
+.right-profile>h2{
+  position: absolute;
+  top: 1rem;
+  right: 7rem;  
+}
+
+.top-cover{
+  display: flex;
+  position: relative;
+}
+p{
+  margin: 0;
+  text-align: left;
+  font-weight: 500;
+}
+
+.left-profile{
+  padding-bottom: .7rem;
+}
+
+.company-news-list{
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.story{
+  display: flex;
+  margin-top: 1rem;
+}
+
+.story-header{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:.5rem
+ 
+}
+
+.story-header>p{
+  font-weight: 800;
+}
