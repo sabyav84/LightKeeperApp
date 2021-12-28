@@ -18,7 +18,7 @@ function App() {
 
   //Authentication of finnhub API
   const api_key = finnhub.ApiClient.instance.authentications["api_key"];
-  api_key.apiKey = "c71qqrqad3ieuiu4esvg";
+  api_key.apiKey = process.env.REACT_APP_FINNHUB_API_KEY;
   const finnhubClient = new finnhub.DefaultApi();
 
   //define function to fetch news, company profile, peers, and quote prices end points
